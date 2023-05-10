@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css">
     <title>Painel Vieiracred 23</title>
   </head>
   <body>
-    <iframe title="Ranking Vieira23" width="1820" height="900" src="https://app.powerbi.com/reportEmbed?reportId=581c0c4a-bb78-4ea6-8b0c-7dca4d84e297&autoAuth=true&embeddedDemo=true" frameborder="0" allowFullScreen="true"></iframe>
+    <div class="container">
+    <iframe title="Ranking Vieira23" 
+    src="https://app.powerbi.com/reportEmbed?reportId=581c0c4a-bb78-4ea6-8b0c-7dca4d84e297&autoAuth=true&embeddedDemo=true" 
+    frameborder="0" allowFullScreen="true"></iframe>
+  </div>
   </body>
   <script>
   // Defina o tempo em milissegundos para atualizar a página (10 minutos = 600000 ms)
-  const tempoAtualizacao = 600000;
+  const tempoAtualizacao = 300000;
 
   // Função para recarregar a página
   const atualizarPagina = () => {
